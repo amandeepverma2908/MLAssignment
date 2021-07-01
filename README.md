@@ -1,6 +1,5 @@
 HappyMonk Assignment
 
-
 Model:-
 Multilayer perceptron(MLP) model is a class of artificial neural network that uses back propagation technique for training. It has three layers of nodes(including one hidden). During training, all the weights and biases are updated after processing single training sample and the method is called stochastic training. The code is run for 600 epochs alongside EarlyStopping method which uses a technique to stop the model training if validation_loss or validation_accuracy starts to increase or decrease respectively and dependent on which method it was applied. The activation function is sigmoid of the form f(x) = 1 / 1 + exp(-x) Its range is between 0 and 1 . 
 
